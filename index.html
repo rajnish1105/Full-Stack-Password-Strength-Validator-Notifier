@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login with Strong Password</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="login-container">
+    <h2>Login / Create Password</h2>
+    <form id="loginForm">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" required>
+        <div id="passwordStrength" class="strength-text"></div>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+    <div id="message" class="message"></div>
+    <div class="password-rules">
+      <p>Password must be at least 8 characters long and contain:</p>
+      <ul>
+        <li>1 uppercase letter</li>
+        <li>1 lowercase letter</li>
+        <li>1 number</li>
+        <li>1 special character (@$!%*?&)</li>
+      </ul>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

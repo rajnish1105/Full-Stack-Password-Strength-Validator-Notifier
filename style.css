@@ -1,0 +1,96 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f4f4;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-container {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 400px;
+  width: 100%;
+}
+
+h2 {
+  margin-top: 0;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+.strength-text {
+  font-size: 0.9em;
+  margin-top: 5px;
+  height: 20px;
+}
+
+.strength-strong {
+  color: green;
+}
+
+.strength-weak {
+  color: red;
+}
+
+.message {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.message-success {
+  background: #e6ffe6;
+  color: green;
+}
+
+.message-error {
+  background: #ffe6e6;
+  color: red;
+}
+
+.password-rules {
+  margin-top: 20px;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.password-rules ul {
+  margin-top: 5px;
+  padding-left: 20px;
+}
